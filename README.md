@@ -19,10 +19,12 @@ Requisitos: Windows 10/11 de 64 bits e Microsoft Edge WebView2 Runtime. Interfac
 1. Baixe **SNAKE.exe** na página da versão e abra o arquivo.
 2. Entre na sua conta Capcom pelo navegador integrado e aguarde voltar ao Buckler. Conclua pessoalmente qualquer verificação de segurança.
 3. Aguarde **Conectado ao Buckler** ou clique em **Verificar login**.
-4. Digite parte do nome do clube e clique em **Buscar clubes**.
-5. Selecione o clube e clique em **Listar jogadores**.
+4. Digite parte do nome do clube e clique em **Buscar clubes** (ou pressione Enter). Online são exigidos pelo menos **4 caracteres**: `ubbc` encontra UbbClan. Nos clubes já conhecidos pela base local, trechos menores como `ubb` também funcionam.
+5. Selecione o clube e clique em **Listar jogadores**. Na primeira consulta a lista é salva; nas próximas, é aberta da base local. Use **Atualizar lista** para consultar novamente os membros online.
 6. Clique em **MR máx.** ao lado do jogador desejado para consultar o recorde entre os personagens e fases disponibilizados pelo Buckler.
 7. Exporte os resultados em **CSV** ou **Excel**, se desejar.
+
+Clique numa linha de jogador para copiar o **User Code**. O botão **MR máx.** mantém a consulta individual. A base local guarda nomes e códigos por clube, com data de atualização, e não armazena MR. Ao reabrir a lista, o MR volta a **Não consultado**.
 
 A sessão de login e a preferência de tema claro/escuro ficam salvas no computador. A Capcom pode solicitar novo login quando a sessão expirar. Use **Mostrar navegador** para abrir novamente a aba do site.
 
@@ -35,3 +37,4 @@ Este é o canal público de **distribuição** do SNAKE. Contém instruções, m
 Os arquivos **Source code (zip/tar.gz)** gerados automaticamente pelo GitHub contêm somente os arquivos deste repositório de distribuição. Para usar o programa, baixe **SNAKE.exe**.
 
 Copyright © 2026 **Force Games**. Todos os direitos reservados aos materiais próprios. A publicação do executável não concede uma licença de código aberto. Marcas, serviços e dependências de terceiros seguem seus próprios direitos e licenças. Veja [NOTICE](NOTICE).
+
