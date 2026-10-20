@@ -24,7 +24,9 @@ Requisitos: Windows 10/11 de 64 bits e Microsoft Edge WebView2 Runtime. Interfac
 6. Clique em **MR máx.** ao lado do jogador desejado para consultar o recorde entre os personagens e fases disponibilizados pelo Buckler.
 7. Use **Baixar PDF**, **Baixar CSV** ou **Baixar Excel**. Todos os formatos sugerem nome do clube e data, como `snake_UBBclan_2026-10-19.pdf`. O PDF inclui o clube no título de cada página, data, número de jogadores, User Codes, MR consultado e páginas numeradas. A exportação inclui a lista completa do clube, mesmo com filtro de texto aplicado, e não dispara consultas de MR.
 
-Clique numa linha de jogador para copiar o **User Code**. O botão **MR máx.** mantém a consulta individual. A base local guarda nomes e códigos por clube, com data de atualização, e não armazena MR. Ao reabrir a lista, o MR volta a **Não consultado**.
+Clique numa linha de jogador para copiar o **User Code**. O botão **MR máx.** mantém a consulta individual. A partir da versão 1.3.0, os MRs consultados são salvos automaticamente por User Code, com personagem, fase e data da consulta. Eles são restaurados ao reabrir a lista ou atualizar os membros. A coluna **MR consultado em** mostra a data; use **MR máx.** para refazer a consulta. Se a nova consulta falhar ou for cancelada, o último resultado completo é preservado. Consultas de versões anteriores que não foram gravadas precisam ser refeitas uma vez.
+
+Clique no cabeçalho **MR máximo** para ordenar do maior para o menor; clique novamente para inverter. Os jogadores não consultados permanecem no final, depois dos resultados completos sem MR. A ordenação é mantida no filtro e nas exportações.
 
 A sessão de login e a preferência de tema claro/escuro ficam salvas no computador. A Capcom pode solicitar novo login quando a sessão expirar. Use **Mostrar navegador** para abrir novamente a aba do site.
 
